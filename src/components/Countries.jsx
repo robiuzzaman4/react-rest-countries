@@ -6,11 +6,11 @@ const Countries = () => {
     const countries = useLoaderData();
     // console.log(countries);
     return (
-        <div className='max-w-screen-lg mx-auto px-4 py-10 grid md:grid-cols-3 gap-4'>
+        <div className='bg-slate-50 dark:bg-slate-950 max-w-screen-lg mx-auto px-4 py-10 grid md:grid-cols-3 gap-4'>
             {
-                countries.map((countrie) => <Country 
-                key={countrie.cca3}
-                countrie={countrie}
+                countries.map((countrie) => <Country
+                    key={countrie.cca3}
+                    countrie={countrie}
                 ></Country>)
             }
         </div>

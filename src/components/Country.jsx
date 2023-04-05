@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Country = ({ countrie }) => {
     const { name, region, flags, cca3 } = countrie;
     return (
-        <div className="shadow-xl rounded-sm">
+        <div className="bg-white dark:bg-slate-900/50 shadow-xl rounded-sm">
             <figure>
                 <img className='w-full h-40 bg-cover rounded-sm' src={flags.svg} alt="Flags" />
             </figure>

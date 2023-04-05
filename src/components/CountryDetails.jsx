@@ -12,7 +12,7 @@ const CountryDetails = () => {
 
     return (
 
-        <div className='max-w-screen-lg mx-auto px-4 py-10 flex flex-col items-start gap-4'>
+        <div className='max-w-screen-lg mx-auto px-4 py-10 flex flex-col items-start gap-4 bg-white dark:bg-slate-900/50'>
             <button onClick={handleGoBack} className='btn-secondary'>Go Back</button>
             <div className='grid md:grid-cols-2 gap-8'>
                 <div>
